@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Google Spreadsheet to JSON API app",
   "main": "app.js",
-  "author": "Nick Moreton",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "body-parser": "^1.x.x",
     "express": "^4.x.x",
